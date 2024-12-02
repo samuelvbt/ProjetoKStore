@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@mipmap/login"
+            android:title="@string/menu_login" />
+
+        <item
+            android:id="@+id/Vendas"
+            android:icon="@mipmap/pedido"
+            android:title="Vendas" />
+
+
+
+<!--        <item-->
+<!--            android:id="@+id/nav_cliente"-->
+<!--            android:icon="@mipmap/pedido"-->
+<!--            android:title="Pedido"/>-->
+
+
+
+<!--        <item-->
+<!--            android:id="@+id/nav_consultarPreco"-->
+<!--            android:icon="@mipmap/preco"-->
+<!--            android:title="@string/consultarPreco" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_pedidos"-->
+<!--            android:title="@string/allPedidos" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_sincroniza"-->
+<!--            android:icon="@mipmap/sincroniza"-->
+<!--            android:title="@string/menu_sincroniza" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_logoff"-->
+<!--            android:icon="@mipmap/logoff"-->
+<!--            android:title="@string/menu_logoff" />-->
+
+    </group>
+</menu>

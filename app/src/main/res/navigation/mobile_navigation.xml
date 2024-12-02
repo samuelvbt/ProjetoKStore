@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_login">
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="br.com.constance.app.appkstore.ui.login.LoginFragment"
+        android:label="@string/menu_login"
+        tools:layout="@layout/fragment_login" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_sincroniza"-->
+<!--        android:name="br.com.constance.app.appkstore.ui.sincroniza.SincronizaFragment"-->
+<!--        android:label="@string/menu_sincroniza"-->
+<!--        tools:layout="@layout/fragment_sincroniza" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_cliente"-->
+<!--        android:name="br.com.constance.app.appkstore.ui.cliente.ClienteFragment"-->
+<!--        android:label="@string/menu_cliente"-->
+<!--        tools:layout="@layout/fragment_cliente" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/nav_adicionar_pedido"-->
+<!--        android:name="br.com.constance.app.appkstore.ui.adicionarPedido.AdicionarPedidoFragment"-->
+<!--        android:label="@string/Pedidos"-->
+<!--        tools:layout="@layout/fragment_adicionar_pedido" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_pedido"-->
+<!--        android:name="br.com.constance.app.appkstore.ui.pedido.PedidoFragment"-->
+<!--        android:label="@string/menu_pedido"-->
+<!--        tools:layout="@layout/fragment_pedido" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_produto"-->
+<!--        android:name="br.com.constance.app.appkstore.ui.produto.ProdutoFragment"-->
+<!--        android:label="@string/menu_produto"-->
+<!--        tools:layout="@layout/fragment_produto" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_item"-->
+<!--        android:name="br.com.constance.app.appkstore.ui.itemPedido.ItemPedidoFragment"-->
+<!--        android:label="@string/Item"-->
+<!--        tools:layout="@layout/fragment_item_pedido" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_logoff"-->
+<!--        android:name="br.com.constance.app.appkstore.ui.logoff.LogoffFragment"-->
+<!--        android:label="@string/menu_logoff"-->
+<!--        tools:layout="@layout/fragment_logoff" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/nav_finaliza_pedido"-->
+<!--        android:name="br.com.constance.app.appkstore.ui.finalizarPedido.FinalizarPedidoFragment"-->
+<!--        android:label="@string/finaliza_pedido"-->
+<!--        tools:layout="@layout/fragment_finalizar_pedido" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_pedidos"-->
+<!--        android:name="br.com.constance.app.appkstore.ui.todosPedidos.TodosPedidosFragment"-->
+<!--        android:label="@string/allPedidos"-->
+<!--        tools:layout="@layout/fragment_todos_pedidos" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_consultarPreco"-->
+<!--        android:name="br.com.constance.app.appkstore.ui.preco.PrecoFragment"-->
+<!--        android:label="Consulta Preço"-->
+<!--        tools:layout="@layout/modal"-->
+<!--        />-->
+<!--    <action-->
+<!--        android:id="@+id/action_pedido_to_item"-->
+<!--        app:destination="@id/nav_item" />-->
+
+
+
+</navigation>

@@ -1,0 +1,68 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Barra superior com botão de fechar -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- RelativeLayout para EditText e botão no mesmo nível -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <EditText
+                android:id="@+id/searchProduto"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@id/button_scanner"
+                android:layout_weight="1"
+                android:hint="Pesquise o produto" />
+
+            <Button
+                android:id="@+id/button_scanner"
+                android:layout_width="75dp"
+                android:layout_height="37dp"
+                android:layout_alignParentEnd="true"
+                android:enabled="true"
+                android:text="@string/ler_codigo_bar" />
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/selecionaBusca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Filtrar por código" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Filtrar por digitação" />
+        </RadioGroup>
+
+        <!-- Lista de produtos -->
+        <ListView
+            android:id="@+id/listaProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+</RelativeLayout>

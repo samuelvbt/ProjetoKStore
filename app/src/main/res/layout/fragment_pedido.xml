@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.constance.app.appkstore.ui.pedido.PedidoFragment">
+
+
+    <TextView
+        android:id="@+id/pedido"
+        android:layout_width="252dp"
+        android:layout_height="96dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="159dp"
+        android:background="@color/gray"
+        android:text="Pedido"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="167dp"
+        android:layout_height="96dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/gray"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="409dp"
+        android:layout_height="580dp"
+        android:layout_below="@+id/pedido"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="4dp">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="580dp"
+            android:layout_below="@id/pedido"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-16dp"
+            android:layout_marginEnd="0dp"
+            android:orientation="vertical">
+
+            <!-- Other views -->
+
+            <ListView
+                android:id="@+id/itens"
+                android:layout_width="match_parent"
+                android:layout_height="580dp"
+                android:layout_marginTop="38dp" />
+
+            <!-- Other views -->
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/finaliza_pedido"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollView3"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="224dp"
+        android:text="Finalizar Pedido" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="32dp"
+        android:contentDescription="@string/fab_desc"
+        app:backgroundTint="@android:color/black"
+        app:srcCompat="@drawable/ic_add"
+        app:tint="@android:color/white" />
+
+    <Button
+        android:id="@+id/preco"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/finaliza_pedido"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="-220dp"
+        android:layout_marginEnd="144dp"
+        android:layout_toStartOf="@+id/fabPedido"
+        android:text="Preços" />
+
+
+</RelativeLayout>

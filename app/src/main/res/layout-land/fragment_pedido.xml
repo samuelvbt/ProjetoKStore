@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.constance.app.appkstore.ui.pedido.PedidoFragment">
+
+    <!-- Seus elementos de layout aqui -->
+
+    <TextView
+        android:id="@+id/pedido"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:text="Pedido"
+        android:textColor="@color/black" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/fab_desc"
+        app:srcCompat="@drawable/ic_add"
+        app:backgroundTint="@android:color/black"
+        app:tint="@android:color/white" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="604dp"
+        android:layout_below="@+id/pedido"
+        android:layout_marginTop="8dp">
+
+        <ListView
+            android:id="@+id/itens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/finaliza_pedido"
+        android:layout_width="198dp"
+        android:layout_height="39dp"
+        android:layout_below="@+id/scrollView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="65dp"
+        android:layout_toStartOf="@+id/fab"
+        android:text="Finalizar Pedido" />
+
+
+</RelativeLayout>

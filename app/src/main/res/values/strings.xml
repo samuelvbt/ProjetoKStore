@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">KStore</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_login">Login</string>
+    <string name="menu_sincroniza">Sincronizar Dados</string>
+    <string name="menu_cliente">Cliente</string>
+    <string name="menu_pedido">Pedido</string>
+    <string name="menu_logoff">Logoff</string>
+    <string name="nav_usuario_logado">Usuário não logado</string>
+    <string name="prompt_email">Usuário</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Logar</string>
+    <string name="menu_novo_pedido">Novo Pedido</string>
+    <string name="menu_visualizar">Visualizar Pedidos</string>
+    <string name="menu_enviar_dados">Enviar Dados</string>
+    <string name="menu_baixar_dados"> Baixar_dados</string>
+    <string name="menu_produto">Selecione o produto</string>
+    <string name="menu_item">Produto</string>
+    <string name="welcome">"Logado"</string>
+    <string name="invalid_username">Usuário inválido</string>
+    <string name="invalid_password">A senha precisa ser preenchida</string>
+    <string name="login_failed">"Login falhou"</string>
+    <string name="ler_codigo_bar">[|||||||]</string>
+    <string name="produto">Dados Produtos</string>
+    <string name="cliente">Dados Clientes</string>
+    <string name="tipoNeogicacao">Dados Tip. Negociação</string>
+    <string name="nav_header_desc"></string>
+    <string name="pedido">Enviar Pedidos </string>
+    <string name="fab_desc">Adicionar</string>
+    <string name="Item">Adicionar Item</string>
+    <string name="Pedidos">Pedidos</string>
+    <string name="tipo_negociacao">"Tipo de Negociação"</string>
+    <string name="finaliza_pedido">"Finalizar Pedido"</string>
+    <string name="primeira_entrega">"Data Primeira Entrega"</string>
+    <string name="observacao">"Observações</string>
+    <string name="finalizar">"Finalizar"</string>
+    <string name="allPedidos">Todos os Pedidos</string>
+    <string name="consultarPreco">Consultar Preço</string>
+    <string name="imagem">Imagem Produto</string>
+
+
+
+
+
+</resources>
